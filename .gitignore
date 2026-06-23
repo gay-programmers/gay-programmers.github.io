@@ -1,0 +1,16 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# VSCode
+.vscode/
+.devcontainer/
+
+# Replit
+.replit
+replit.nix
+replit.md
+.cache/
+.local/
+.agents/

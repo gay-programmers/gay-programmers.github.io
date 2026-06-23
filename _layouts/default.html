@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }} - Gay Programmers</title>
+    <link href="https://classless.de/classless.css" rel="stylesheet" />
+    <link href="https://classless.de/addons/bootless.css" rel="stylesheet" />
+    <link href="https://classless.de/addons/hljs-style.css" rel="stylesheet" />
+    <link href="https://classless.de/addons/tabbox.css" rel="stylesheet" />
+    <link href="https://classless.de/addons/themes.css" rel="stylesheet" />
+    <script src="https://unpkg.com/@highlightjs/cdn-assets@11/highlight.min.js"></script>
+    <script src="https://unpkg.com/js-cookie@3/dist/js.cookie.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", hljs.highlightAll);
+        let theme = Cookies.get("theme");
+        if (!["light", "nil", "dark", "sepia", "milligram", "pure", "sakura", "skeleton", "bootstrap", "medium", "tufte"].includes(theme)) {
+            theme = "light";
+        }
+        document.documentElement.setAttribute("data-theme", theme);
+    </script>
+    {% if page.scripts %}
+    {% for i in page.scripts %}
+    <script src="{{ i }}"></script>
+    {% endfor %}
+    {% endif %}
+</head>
+
+<body>
+    <header>
+        <nav class="row">
+            <div class="col-4">
+                <a href="/">Home</a>
+                <a href="/about">About</a>
+            </div>
+            <div class="col-4 text-center">
+                <a href="/blog">Blog</a>
+                <a href="/projects">Projects</a>
+            </div>
+            <div class="col-4 text-right">
+                <a href="https://github.com/gay-programmers">GitHub</a>
+                <a href="https://github.com/gay-programmers/gay-programmers.github.io">Source</a>
+            </div>
+        </nav>
+    </header>
+    <main>{{ content }}</main>
+    <footer>
+        <blockquote>Copyright &copy; 2026 Gay Programmers</blockquote>
+    </footer>
+</body>
+
+</html>
