@@ -15,14 +15,21 @@ scripts:
 4. [Preferences](#preferences)
 
 ## Contact
+
 Currently, we have no available public contact form. However, those of you with GitHub accounts can click "Source" at the top right corner of any of our pages to see the source code and file an issue or pull request.
 
 You can also email [dunn_isaac@icloud.com](mailto:dunn_isaac@icloud.com), [eastonzou@gmail.com](mailto:eastonzou@gmail.com), or [yu8nolan@gmail.com](mailto:yu8nolan@gmail.com) for a more direct contact, however please note that we might not respond to unknown emails.
+
 ## Copyright Info
+
 This project is under the MIT License. It is open source, however substantial portions of this website must still contain the original copyright notice from the LICENSE file.
+
 ## Tools We Use
+
 We use GitHub Pages for hosting, Jekyll for building our site, and ClasslessCSS for styling. We also use the `@highlightjs/cdn-assets` and `js-cookie` NPM packages in our JavaScript.
+
 ## Preferences
+
 Theme:
 <select id="theme">
     <option value="light">System</option>
