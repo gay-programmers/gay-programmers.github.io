@@ -13,10 +13,11 @@ scripts:
 2. [Copyright Info](#copyright-info)
 3. [Tools We Use](#tools-we-use)
 4. [Preferences](#preferences)
+
 ## Contact
 Currently, we have no available public contact form. However, those of you with GitHub accounts can click "Source" at the top right corner of any of our pages to see the source code and file an issue or pull request.
 
-You can also email dunn_isaac@icloud.com, eastonzou@gmail.com, or yu8nolan@gmail.com for a more direct contact, however please note that we might not respond to unknown emails.
+You can also email [dunn_isaac@icloud.com](mailto:dunn_isaac@icloud.com), [eastonzou@gmail.com](mailto:eastonzou@gmail.com), or [yu8nolan@gmail.com](mailto:yu8nolan@gmail.com) for a more direct contact, however please note that we might not respond to unknown emails.
 ## Copyright Info
 This project is under the MIT License. It is open source, however substantial portions of this website must still contain the original copyright notice from the LICENSE file.
 ## Tools We Use
